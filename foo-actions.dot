@@ -1,0 +1,10 @@
+digraph G {
+  "∗ conf-gnutls.1";
+  "∗ conf-pkg-config.1.1";
+  "↻ ocamlnet.4.1.6";
+  
+  
+  "∗ conf-gnutls.1" -> "↻ ocamlnet.4.1.6";
+  "∗ conf-pkg-config.1.1" -> "∗ conf-gnutls.1";
+  
+  }
